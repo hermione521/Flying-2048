@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flying 2048</title>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	</head>
+	<body>
+		<audio id="audio_bad" src="music/bad.mp3" preload="auto"></audio>
+		<audio id="audio_score" src="music/score.mp3" preload="auto"></audio>
+		<audio id="audio_win" src="music/win.mp3" preload="auto"></audio>
+		<audio id="audio_move" src="music/move.mp3" preload="auto"></audio>
+		<div id="menu">
+			<h1>Flying 2048</h1>
+			<p>
+				Movement: arrows<br />
+				Author: <a href="http://github.com/hermione0521">Gan Yue</a><br />
+				Supported by: three.js
+			</p>
+			<button id="play_button">Start</button>
+		</div>
+
+		<div id="points">
+			<h1>0</h1>
+		</div>
+
+		<div id="you-win">
+			You Win!
+		</div>
+
+		<script type="text/javascript" src="js/three.min.js"></script>
+		<script type="text/javascript" src="js/flying2048.js"></script>
+	</body>
+</html>
