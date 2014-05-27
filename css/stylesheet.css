@@ -7,12 +7,12 @@ body{
 
 #menu{
 	position: absolute;
-	width: 200px;
-	height: 200px;
+	width: 270px;
+	height: 250px;
 
 	top: 50%;
 	left: 50%;
-	margin: -125px 0 0 -100px;
+	margin: -135px 0 0 -125px;
 
 	text-align: center;
 
